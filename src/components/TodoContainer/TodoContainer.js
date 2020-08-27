@@ -42,7 +42,6 @@ const TodoContainer = props => {
       const data = await response.json();
 
       if (response.status === 200) {
-        console.log(response.status);
         setData(data);
         setIsReady(true);
       }
